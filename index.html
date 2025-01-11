@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playwrite+CO+Guides&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit&family=Playwrite+CO+Guides&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="statistics">
+        <picture class="statistics__image clr-secundary-300">
+          <source
+            srcset="images/image-header-desktop.jpg"
+            media="(min-width: 650px)"
+          />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt="Three people sitting at a table and working on their laptops."
+          />
+          <div class="image-cover"></div>
+        </picture>
+        <div class="statistics__content">
+          <h1 class="statistics__title">
+            Get <span class="clr-secundary-300">insights</span> that help your
+            business grow.
+          </h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="grid-group">
+            <div class="grid-column">
+              <h3>10k+</h3>
+              <p>companies</p>
+            </div>
+            <div class="grid-column">
+              <h3>314</h3>
+              <p>templates</p>
+            </div>
+            <div class="grid-column">
+              <h3>12m+</h3>
+              <p>queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
